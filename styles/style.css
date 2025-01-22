@@ -15,8 +15,7 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
+
 
 .raleway-font {
     font-family: "Raleway", serif;
@@ -176,6 +175,7 @@ a {
     font-size: 20px;
     font-weight: 300;
     margin: 0px;
+    color: rgba(119, 119, 119, 1);
 }
 
 .banner-button {
@@ -208,3 +208,57 @@ a {
 
     }
 }
+.standard{
+    background-image: url(../assets/bg.png);
+}
+.standard-heading{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+}
+.card-container{
+    margin: 80px 140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 28.29px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blueviolet;
+    border-radius: 18.86px;
+    box-shadow: i;
+    background: rgba(255, 255, 255, 1);
+    gap: 33px;
+    padding: 53px 40px;
+}
+.card-description{
+    text-align: center;
+    color: rgba(128, 128, 128, 1);
+}
+.read-more{
+    font-size: 15.09px;
+    font-width: 700;
+    border: 0px;
+    background: rgba(255, 255, 255, 1);
+    margin: 52px 132px 32px 132px;
+    padding: 10px 20px;
+
+}
+.one{
+    color: rgba(100, 200, 255, 1);
+    background: rgba(255, 255, 255, 1);
+ }
+ .two{
+    color: rgba(240, 170, 0, 1);
+    background: rgba(255, 255, 255, 1);
+
+ }
+ .three{
+    color: rgba(135, 0, 255, 1);
+    background: rgba(255, 255, 255, 1);
+
+    
+ }
