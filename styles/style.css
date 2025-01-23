@@ -256,26 +256,28 @@ a {
     font-size: 15.09px;
     font-weight: 700;
     border: 0px;
-    background: rgba(255, 255, 255, 1);
+    /* background: rgba(255, 255, 255, 1); */
     /* margin: 52px 132px 32px 132px; */
-    padding: 20px 50px;
+    /* padding: 20px 50px; */
+    margin: 0px;
+    padding: 0px;
 
 }
 
 .one {
     color: rgba(100, 200, 255, 1);
-    background: rgba(255, 255, 255, 1);
+    /* background: rgba(255, 255, 255, 1); */
 }
 
 .two {
     color: rgba(240, 170, 0, 1);
-    background: rgba(255, 255, 255, 1);
+    /* background: rgba(255, 255, 255, 1); */
 
 }
 
 .three {
     color: rgba(135, 0, 255, 1);
-    background: rgba(255, 255, 255, 1);
+    /* background: rgba(255, 255, 255, 1); */
 
 
 }
