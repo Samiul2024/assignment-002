@@ -181,7 +181,7 @@ a {
 }
 
 /* Laptop display end */
-/* mobile displaay start */
+/* mobile display start */
 @media screen and (max-width: 430px) {
 
     .banner {
@@ -226,12 +226,27 @@ a {
     align-items: center;
     border: 2px solid blueviolet;
     border-radius: 18.86px;
-    box-shadow: i;
-    background: rgba(255, 255, 255, 1);
+    /* box-shadow: i; */
+    /* background: rgba(255, 255, 255, 1); */
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); */
     gap: 33px;
     padding: 53px 40px;
 }
+.card-one{
+    background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0));
+}
+.card-two{
+    background: linear-gradient(rgba(255, 244, 220, 1),rgba(255, 255, 255, 0));
+}
+.card-three{
+    background: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
+}
+.card-title {
+    color: rgba(32, 32, 32, 1);
+    font-size: 25px;
+    font-weight: 700;
 
+}
 .card-description {
     text-align: center;
     color: rgba(128, 128, 128, 1);
@@ -239,7 +254,7 @@ a {
 
 .read-more {
     font-size: 15.09px;
-    font-width: 700;
+    font-weight: 700;
     border: 0px;
     background: rgba(255, 255, 255, 1);
     /* margin: 52px 132px 32px 132px; */
@@ -286,9 +301,7 @@ a {
 }
 /* mobile device standard section starts */
 @media screen and (max-width:430px) {
-    h4{
-        text-align: center;
-    }
+    
     .card-container{
         display: flex;
         flex-direction: column;
@@ -359,7 +372,7 @@ a {
     color: rgba(102, 102, 102, 1);
 }
 .article1 p,h4{
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 45px 38.5px;
 }
 .article1 time{
@@ -448,10 +461,10 @@ a {
         font-weight: 700;
         text-align: center;
     }
-    .article1 p, h4 {
-        overflow: hidden;
-        margin: 45px 38.5px;
+    .story-card .story-title{
+        text-align: left;
     }
+    
 
     
 }
