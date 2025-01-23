@@ -208,21 +208,25 @@ a {
 
     }
 }
-.standard{
+
+.standard {
     background-image: url(../assets/bg.png);
 }
-.standard-heading{
+
+.standard-heading {
     text-align: center;
     font-size: 46px;
     font-weight: 700;
 }
-.card-container{
+
+.card-container {
     margin: 80px 140px;
     display: flex;
     justify-content: space-between;
     gap: 28.29px;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -234,11 +238,13 @@ a {
     gap: 33px;
     padding: 53px 40px;
 }
-.card-description{
+
+.card-description {
     text-align: center;
     color: rgba(128, 128, 128, 1);
 }
-.read-more{
+
+.read-more {
     font-size: 15.09px;
     font-width: 700;
     border: 0px;
@@ -247,18 +253,41 @@ a {
     padding: 10px 20px;
 
 }
-.one{
+
+.one {
     color: rgba(100, 200, 255, 1);
     background: rgba(255, 255, 255, 1);
- }
- .two{
+}
+
+.two {
     color: rgba(240, 170, 0, 1);
     background: rgba(255, 255, 255, 1);
 
- }
- .three{
+}
+
+.three {
     color: rgba(135, 0, 255, 1);
     background: rgba(255, 255, 255, 1);
 
-    
- }
+
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.next-slide{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50%;
+    background: orange;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.next-slide:hover{
+    background: blueviolet;
+    color: yellow;
+}
